@@ -1,0 +1,80 @@
+{
+    "people": [
+      {
+        "id": 101,
+        "firstName": "Ned",
+        "lastName": "Stark",
+        "birthDate": 1500,
+        "deathDate": 1540,
+        "unions":[201]
+      },
+      {
+        "id": 102,
+        "firstName": "Catelyn",
+        "lastName": "Stark",
+        "birthDate": 1970,
+        "deathDate": 1999,
+        "unions":[201]
+      },
+      {
+        "id": 103,
+        "firstName": "Robb",
+        "lastName": "Stark",
+        "birthDate": 1970,
+        "deathDate": 1999,
+        "unions":[202]
+      },
+      {
+        "id": 104,
+        "firstName": "Sansa",
+        "lastName": "Stark",
+        "birthDate": 1970,
+        "deathDate": 1999,
+        "unions":[]
+      },
+      {
+        "id": 105,
+        "firstName": "Arya",
+        "lastName": "Stark",
+        "birthDate": 1970,
+        "deathDate": 1999,
+        "unions":[]
+      },
+      {
+        "id": 106,
+        "firstName": "Bran",
+        "lastName": "Stark",
+        "birthDate": 1970,
+        "deathDate": 1999,
+        "unions":[]
+      },
+      {
+        "id": 107,
+        "firstName": "Rickon",
+        "lastName": "Stark",
+        "birthDate": 1970,
+        "deathDate": 1999,
+        "unions":[]
+      },
+      {
+        "id": 108,
+        "firstName": "Talisa",
+        "lastName": "Stark",
+        "birthDate": 1970,
+        "deathDate": 1999,
+        "unions":[202]
+      }
+    ],
+    "unions": [
+      {
+        "id": 201,
+        "partners":[101,102],
+        "children": [103,104,105,106,107]
+      },
+      {
+        "id": 202,
+        "partners":[103,108],
+        "children": []
+      }
+    ]
+  }
